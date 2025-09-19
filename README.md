@@ -5,10 +5,10 @@ A critical literature review analyzing the use of Geographically Weighted Regres
 # Author: Nnenne Agwunedu
 Portfolio Project: A critical synthesis of geospatial methodologies for urban crime analysis, focusing on London.
 
- Abstract
-This project critically analyzes two advanced spatial data analysis (SDA) techniques—Geographically Weighted Regression (GWR) and ambient population measures—to address the limitations of traditional crime rate analysis. By synthesizing findings from key studies (Zhou et al., 2023; Malleson & Andresen, 2016), this review demonstrates that hybrid models combining real-time mobility data with localized socio-economic indicators are essential for accurate crime prediction and effective policing strategy in urban environments like London.
+## Abstract
+This project critically analyzes two advanced spatial data analysis (SDA) techniques Geographically Weighted Regression (GWR) and ambient population measures to address the limitations of traditional crime rate analysis. By synthesizing findings from key studies (Zhou et al., 2023; Malleson & Andresen, 2016), this review demonstrates that hybrid models combining real-time mobility data with localized socio-economic indicators are essential for accurate crime prediction and effective policing strategy in urban environments like London.
 
- Core Findings & Value Proposition
+## Core Findings & Value Proposition
 Traditional crime rates, which rely on static residential population data, create a distorted view of risk. They underestimate crime in commercial zones (e.g., city centers, transit hubs) and overestimate it in residential areas. This analysis proves that overcoming this requires:
 
 Localized Modeling: GWR reveals that crime drivers are not uniform across a city. For example, higher employment rates correlate with more crime in northwest London (a commuter hub) but typically with less crime elsewhere.
