@@ -1,8 +1,8 @@
 # spatial-crime-analysis-london
 A critical literature review analyzing the use of Geographically Weighted Regression (GWR) and ambient population data in understanding London's crime patterns.
 
-Critical Analysis: Spatial Data Analysis in London Crime Applications
-Author: Nnenne Opemipo Agwunedu
+# Critical Analysis: Spatial Data Analysis in London Crime Applications
+# Author: Nnenne Agwunedu
 Portfolio Project: A critical synthesis of geospatial methodologies for urban crime analysis, focusing on London.
 
  Abstract
