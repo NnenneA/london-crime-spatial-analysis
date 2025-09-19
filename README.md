@@ -15,23 +15,23 @@ Localized Modeling: GWR reveals that crime drivers are not uniform across a city
 
 Dynamic Population Data: "Ambient" population data (e.g., census workday statistics, mobile phone activity) is a significantly better predictor of theft (ρ=0.32) than residential data, as it captures where people actually are and are therefore most vulnerable.
 
-The key insight: Crime isn't just about where people live; it's about where people go and the local conditions of those places.
+## The key insight: Crime isn't just about where people live; it's about where people go and the local conditions of those places.
 
-Methodologies Evaluated
+## Methodologies Evaluated
 Methodology	Study	Key Strength	Identified Limitation
 Geographically Weighted Regression (GWR)	Zhou et al. (2023)	Captures spatial non-stationarity (local effects). Outperformed global models (R²=0.36).	Cross-sectional data cannot infer causality. Excludes crucial non-residential zones.
 Ambient Population Analysis	Malleson & Andresen (2016)	Validates Routine Activity Theory. Dynamic data predicts theft hotspots more accurately.	Temporal aggregation (monthly data masks daily patterns). Potential for data bias (e.g., smartphone user demographics).
 
-Synthesized Recommendations for Applied Data Science
+## Synthesized Recommendations for Applied Data Science
 The integration of these approaches leads to three actionable strategies for data-driven policing:
 
-Develop Spatiotemporal Models: Future systems must integrate real-time mobility data (e.g., Wi-Fi footfall, transit analytics) with socio-economic indicators using models like GTWR (Geographically and Temporally Weighted Regression). This allows for crime forecasting that updates like a weather map, predicting when and where risk is highest.
+1. Develop Spatiotemporal Models: Future systems must integrate real-time mobility data (e.g., Wi-Fi footfall, transit analytics) with socio-economic indicators using models like GTWR (Geographically and Temporally Weighted Regression). This allows for crime forecasting that updates like a weather map, predicting when and where risk is highest.
 
-Incorporate Offender-Centric Data: Current models focus on "opportunity" (victim presence). Adding data on "motivation" (offender residence patterns, gang territories) would create a more complete and effective predictive model.
+2. Incorporate Offender-Centric Data: Current models focus on "opportunity" (victim presence). Adding data on "motivation" (offender residence patterns, gang territories) would create a more complete and effective predictive model.
 
-Adopt Micro-Geographic Analysis: Crime clusters at the hyper-local level (specific street corners, not just neighborhoods). Precision policing requires shifting analysis to this street-segment level to target resources with surgical accuracy.
+3. Adopt Micro-Geographic Analysis: Crime clusters at the hyper-local level (specific street corners, not just neighborhoods). Precision policing requires shifting analysis to this street-segment level to target resources with surgical accuracy.
 
-Conclusion & Impact
+## Conclusion & Impact
 This critical review demonstrates that moving beyond traditional crime metrics is not just an academic exercise but a practical necessity. The findings provide a blueprint for building more accurate, efficient, and equitable crime prediction systems.
 
 By leveraging localized modeling, dynamic data, and micro-analysis, data scientists and policymakers can transform urban safety strategies from reactive to proactively intelligent, ensuring resources are allocated where they are needed most.
