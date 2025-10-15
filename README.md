@@ -11,7 +11,7 @@ This project critically analyzes two advanced spatial data analysis (SDA) techni
 ## Core Findings & Value Proposition
 Traditional crime rates, which rely on static residential population data, create a distorted view of risk. They underestimate crime in commercial zones (e.g., city centers, transit hubs) and overestimate it in residential areas. This analysis proves that overcoming this requires:
 
-Localized Modeling: GWR reveals that crime drivers are not uniform across a city. For example, higher employment rates correlate with more crime in northwest London (a commuter hub) but typically with less crime elsewhere.
+Localized Modeling: GWR reveals that crime drivers are not uniform across a city. For example, higher employment rates correlate with more crime in northwest London (a commuter hub) but typically with less crime elsewhere
 
 Dynamic Population Data: "Ambient" population data (e.g., census workday statistics, mobile phone activity) is a significantly better predictor of theft (ρ=0.32) than residential data, as it captures where people actually are and are therefore most vulnerable.
 
